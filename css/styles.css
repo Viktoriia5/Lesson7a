@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+body {
+  background-color: #2f9acd;
+  color: #ffffff;
+}
+/*font*/
+h1 {
+  font-family: "Lucida Sans Unicode";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+li {
+  font-family: "Lucida Sans Unicode";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+p {
+  font-family: "Lucida Sans Unicode";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/*font ends*/
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+.weather-table {
+  font-size: 0;
+  padding-left: 0;
+  border: 2px solid #ffffff;
+}
+
+.weather-table li {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 500;
+  border: 2px solid #ffffff;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+}
+span {
+  color: rgb(255, 255, 255, 0.5);
+}
+li {
+  width: 25%;
+  height: 120px;
+  padding-top: 2.2rem;
+}
+li:hover :not(li) #lisbon {
+  background-color: #2f9acd;
+  width: 50%;
+}
+#paris {
+  background-color: #2fcdcd;
+}
+#belgrade {
+  background-color: #9a669a;
+}
+#moscow {
+  background-color: #c34545;
+}
+#tel-aviv {
+  background-color: #e36749;
+}
+#cair {
+  background-color: #ffcd66;
+}
+#new-york {
+  background-color: #9acd9a;
+}
+
+#new-delhi {
+  background-color: #669a9a;
+}
+#san-fran {
+  background-color: #cd669a;
+  width: 50%;
+}
+#tokyo {
+  background-color: #2f9a66;
+}
+#sydney {
+  background-color: #66669a;
+  width: 100%;
+}
+#lisbon {
+  width: 50%;
+}
+ul:hover li:not(:hover) {
+  opacity: 0.5;
+}
+i {
+  font-size: 30px;
+}
